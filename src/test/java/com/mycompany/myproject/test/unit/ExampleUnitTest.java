@@ -1,7 +1,6 @@
 package com.mycompany.myproject.test.unit;
 
-import com.mycompany.myproject.PingVerticle;
-import org.junit.Assert;
+import org.jboss.aerogear.unifiedpush.vertx.client.SenderVerticle;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -27,7 +26,7 @@ public class ExampleUnitTest {
 
   @Test
   public void testVerticle() {
-    PingVerticle vert = new PingVerticle();
+    SenderVerticle vert = new SenderVerticle();
 
     // Interrogate your classes directly....
 

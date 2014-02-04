@@ -61,6 +61,8 @@ dependencies {
   provided "org.codehaus.groovy:groovy-all:$groovyVersion"
   provided "io.vertx:lang-groovy:$groovyLangModVersion@jar"
 
+  compile "org.jboss.aerogear:unifiedpush-java-client:0.4.0"
+
 }
 
 test {
